@@ -1,0 +1,20 @@
+﻿Student Table:
+
+ID Integer 8 Not Null PrimaryKey Auto
+Name 32 Text Not Null 
+Gender 1 Integer Not Null
+StudentNo 32 Text Not Null Unique Key
+ParentName 32 Text Not Null
+ParentMobile 11 Text Not Null
+Note 128 Text Null
+
+Class Table：
+
+ID 8 Integer Not Null
+ClassName 32 Text Not Null
+
+ClassStudent Table:
+
+ID Integer 8 Not Null PrimaryKey Auto
+StudentID 8 Integer Not Null
+ClassID 8 Integer Not Null
